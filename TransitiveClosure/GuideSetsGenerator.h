@@ -18,6 +18,10 @@ private:
 
 	//Follow
 	void FindFollow();
+	void FindFollowPlus1();
+	void FindFollowPlus2();
+	void AddFirstOfNoTerminal(int index, string noTermOnRight, int idxOfRule);
+	void AddFollowOfLeftPart(int index, string leftNoTerm, int idxOfRule);
 
 public:
 	GuideSetsGenerator();
