@@ -6,9 +6,11 @@ class GrammarReader
 private:
 	Rules _rules;
 	vector<vector<string>> ruleStrings;
-	void ReadGrammarStringsFromFile();
+
 	void ReadGrammarFromFile();
-	
+	void ReadGrammarStringsFromFile();
+
+
 public:
 	Rules GetRules();
 	void ShowGrammar();

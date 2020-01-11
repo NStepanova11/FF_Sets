@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{EB730669-87F0-425F-8854-D955F30D3704}</ProjectGuid>
+    <ProjectGuid>{650AEEFA-46AC-4E52-A84D-A45014A4E0D0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TransitiveClosure</RootNamespace>
+    <RootNamespace>SLR</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,14 +151,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GrammarParser.cpp" />
     <ClCompile Include="GrammarReader.cpp" />
-    <ClCompile Include="GuideSetsGenerator.cpp" />
-    <ClCompile Include="TransitiveClosure.cpp" />
+    <ClCompile Include="SLR.cpp" />
+    <ClCompile Include="TableGeneratorSLR.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GrammarParser.h" />
     <ClInclude Include="GrammarReader.h" />
-    <ClInclude Include="GuideSetsGenerator.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="TableGeneratorSLR.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -100,15 +100,21 @@ vector<vector<string>> GrammarReader::GetRuleStrings()
 void GrammarReader::ShowGrammar()
 {
 	cout << "\n----- RULES -----" << endl;
+	ofstream fout("parsed_grammar.txt");
+
 	for (int i = 0; i < _rules.leftParts.size(); i++)
 	{
 		cout << _rules.leftParts[i] << " -> ";
+		fout << _rules.leftParts[i] << " -> ";
 		int n = 0;
 		for (auto lexem : _rules.rightParts[i])
 		{
 			cout << " " << lexem;
+			fout << " " << lexem;
+
 		}
 		cout << endl;
+		fout << endl;
 	}
 }
 

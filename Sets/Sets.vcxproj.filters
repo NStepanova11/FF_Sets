@@ -15,13 +15,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TransitiveClosure.cpp">
+    <ClCompile Include="Sets.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GrammarReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GuideSetsGenerator.cpp">
+    <ClCompile Include="GuideSetGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Garbage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParseTableRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TableLL.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -32,7 +44,16 @@
     <ClInclude Include="Header.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GuideSetsGenerator.h">
+    <ClInclude Include="GuideSetGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParseTableRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TableLL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

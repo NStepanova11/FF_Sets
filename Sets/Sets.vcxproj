@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{F7E7A223-0B6C-45A9-9BD7-EB43603D2B60}</ProjectGuid>
+    <ProjectGuid>{1D1754BE-E440-4710-93B0-F5D1949A487A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>fstflw</RootNamespace>
+    <RootNamespace>Sets</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="fst_flw.cpp" />
+    <ClCompile Include="Garbage.cpp" />
+    <ClCompile Include="GrammarReader.cpp" />
+    <ClCompile Include="GuideSetGenerator.cpp" />
+    <ClCompile Include="ParseTable.cpp" />
+    <ClCompile Include="ParseTableRunner.cpp" />
+    <ClCompile Include="Sets.cpp" />
+    <ClCompile Include="TableLL.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GrammarReader.h" />
+    <ClInclude Include="GuideSetGenerator.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="ParseTable.h" />
+    <ClInclude Include="ParseTableRunner.h" />
+    <ClInclude Include="TableLL.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
